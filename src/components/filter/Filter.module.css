@@ -1,0 +1,18 @@
+.divFilter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #000000 30%, #802020 70%);
+}
+
+.inpFilter {
+    height: 35px;
+    width: 300px;
+    background-color: rgb(233, 223, 223);
+    border: none;
+    border-radius: 3px;
+}
