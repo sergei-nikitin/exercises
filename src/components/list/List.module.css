@@ -6,10 +6,14 @@
       background-position: center;
 }
 
-.video {
-    width: 400px;
-    height: 200px;
+.defVideo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
 }
+
+
 
 .list {
     display: flex;

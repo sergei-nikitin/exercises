@@ -9,10 +9,26 @@
     background: linear-gradient(to top, #000000 30%, #802020 70%);
 }
 
-.inpFilter {
+.SearchForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.SearchFormInput {
     height: 35px;
     width: 300px;
     background-color: rgb(233, 223, 223);
     border: none;
     border-radius: 3px;
+}
+
+.SearchFormButton {
+    background-color: transparent;
+    border: none;
+    color:rgb(233, 223, 223)
+}
+
+.SearchFormButton:hover {
+    color:rgb(255, 255, 255)
 }
